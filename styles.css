@@ -67,27 +67,9 @@ p {
   color: #fff;
  }
 
-section {
-  display: block;
-  border: 2px solid #997adb;
-  padding: 10px;
-  margin: 10px auto;
-  background-color: #1D1F20;
-}
-
-ul {
-  display: block;
-  list-style-type: disc;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
-}
-
-li {
-  color: #fff;
-}
+ header {
+  display: flex;
+ }
 
 
 /* class selectors */
@@ -182,3 +164,94 @@ li {
 .italic {
   font-style: italic;
   }
+
+  /* new code */
+
+  .navi {
+    list-style-type: none;
+    display: flex;
+    margin-left: auto;
+    padding-right: 40px;
+    align-items: center;
+  }
+
+  .navi li {
+    margin-right: 1em;
+  }
+
+  .heroe {
+    display: flex;
+  }
+
+  .heroe section {
+    width: 50%;
+    margin-right: 2em;
+  }
+
+  .heroe figure {
+    margin-top: 1.5em;
+    margin-left: auto;
+    width: 500px;
+    height: 300px;
+    background-image: url("support/collage.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8%;
+  }
+
+  .content {
+    margin-top: 1.5em;
+  }
+
+  .content ul {
+    list-style: none;
+  }
+
+  .content li {
+    line-height: 1.5em;
+  }
+
+  .content li::before {
+    content: "- ";
+    color: white;
+  }
+
+  footer {
+    margin-top: 2.5em;
+  }
+
+  a:not(.default):link    { color: #F7F7F8; }
+  a:not(.default):visited { color: #B7BBBD; }
+
+  .icons {
+    display: flex;
+    overflow: hidden;
+  }
+
+  .icons figure {
+    max-width: 300px;
+  }
+
+  #logo-google {
+    background-image: url("support/01-google.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  /* <img id="logo google src="support/01-google.png" alt="logo google">
+      <img id="logo google src="support/02-drive.png" alt="logo google drive">
+      <img src="support/03-sites.png" alt="logo google sites">
+      <img src="support/04-forms.png" alt="logo google forms">
+      <img src="support/05-word.png" alt="logo google 05-word">
+      <img src="support/06-excel.png" alt="logo google excel">
+      <img src="support/07-illustrator.png" alt="logo illustrator">
+      <img src="support/08-photoshop.png" alt="logo photoshop">
+      <img src="support/09-dimension.png" alt="logo dimension">
+      <img src="support/10-premier.png" alt="logo premier">
+      <img src="support/11-audition.png" alt="logo audition">
+      <img src="support/12-after.png" alt="logo after">
+      <img src="support/13-html.png" alt="logo html">
+      <img src="support/14-css.png" alt="logo css">
+      <img src="support/15-js.png" alt="logo javascript"> */
