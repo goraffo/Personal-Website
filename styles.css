@@ -175,6 +175,10 @@ p {
     align-items: center;
   }
 
+  .navi a {
+    text-decoration: none;
+  }
+
   .navi li {
     margin-right: 1em;
   }
@@ -217,6 +221,10 @@ p {
     color: white;
   }
 
+  .content a {
+    text-decoration: none;
+  }
+
   footer {
     margin-top: 2.5em;
   }
@@ -226,32 +234,13 @@ p {
 
   .icons {
     display: flex;
-    overflow: hidden;
+    justify-content: space-around
   }
 
   .icons figure {
     max-width: 300px;
   }
 
-  #logo-google {
-    background-image: url("support/01-google.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
 
-  /* <img id="logo google src="support/01-google.png" alt="logo google">
-      <img id="logo google src="support/02-drive.png" alt="logo google drive">
-      <img src="support/03-sites.png" alt="logo google sites">
-      <img src="support/04-forms.png" alt="logo google forms">
-      <img src="support/05-word.png" alt="logo google 05-word">
-      <img src="support/06-excel.png" alt="logo google excel">
-      <img src="support/07-illustrator.png" alt="logo illustrator">
-      <img src="support/08-photoshop.png" alt="logo photoshop">
-      <img src="support/09-dimension.png" alt="logo dimension">
-      <img src="support/10-premier.png" alt="logo premier">
-      <img src="support/11-audition.png" alt="logo audition">
-      <img src="support/12-after.png" alt="logo after">
-      <img src="support/13-html.png" alt="logo html">
-      <img src="support/14-css.png" alt="logo css">
-      <img src="support/15-js.png" alt="logo javascript"> */
+  /* Third Session */
+
