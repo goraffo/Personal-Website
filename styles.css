@@ -38,6 +38,8 @@ body {
   margin: 30px 10%;
   display: block;
   background-color: #413E46;
+  max-width: 1200px;
+  min-width: 380px;
 }
 
 h1 {
@@ -244,3 +246,45 @@ p {
 
   /* Third Session */
 
+  /* Fouth Session */
+
+  @media only screen and (max-width: 480px) {
+  .heroe {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+
+  .heroe figure {
+    margin: auto 0;
+  }
+
+  .heroe section {
+    width: 100%;
+  }
+
+  .icons img {
+    object-fit: contain;
+    min-width: 0;
+  }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .heroe {
+      display: flex;
+      flex-wrap: wrap-reverse;
+    }
+  
+    .heroe figure {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+  
+    .heroe section {
+      width: 100%;
+    }
+  
+    .icons img {
+      object-fit: contain;
+      min-width: 0;
+    }
+    }

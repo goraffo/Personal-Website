@@ -11,8 +11,6 @@ let day = voyager.splice(2,3)
 
 let y = [day.join(''), month.join(''), year.join('')];
 
-// var y = "29/10/2022".split('/')
-
 // create date objects using year, month, day
 var a = new Date(x[2],x[1],x[0])
 var b = new Date(y[2],y[1],y[0])
